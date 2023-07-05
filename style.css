@@ -1,0 +1,87 @@
+body{
+    width: 100vw;
+    background-color: black;
+}
+
+.div1{
+    width: 40vw;
+    height: 600px;
+
+    border-radius: 20px;
+    /* box-shadow: 1, 1,1, 1;/ */
+    padding: 5px;
+    margin: auto;
+    background-color: brown;
+}
+
+#span1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+#span2{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.reset {
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.div1 .div2 {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    height: 10%;
+    background-color: white;
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bt1 {
+    background-color: darkred;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+}
+
+.bt2 {
+    background-color: yellow;
+    font-size: 30px;
+    border-radius: 50px;
+    color: black;
+}
+.div1 .div3 {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    width: 87%;
+    margin-left: 5%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5px;
+    background-color: black;
+    
+    /* align-items: center; */
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.div1 .div4 {
+    margin-top: 10px;
+    
+    width: 90%;
+    margin-left: 5%;
+    height: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    gap: 5px;
+    
+    /* align-items: center; */
+    justify-content: space-around;
+}
