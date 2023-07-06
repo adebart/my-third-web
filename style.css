@@ -85,3 +85,11 @@ body{
     /* align-items: center; */
     justify-content: space-around;
 }
+@media (max-width: 700px){
+    .div1{
+        width: 80vw;
+    }
+    .div3{
+        width: 50vw ;
+    }
+}
